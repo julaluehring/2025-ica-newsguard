@@ -1,0 +1,248 @@
+---
+#title: "Best Practices for Source-Based Research on News Trustworthiness"
+#author: "Jula Luehring"
+#subtitle: ""
+#date: "June 15, 2025"
+format: 
+  revealjs: 
+    seal: false
+    transition: "slide"
+    background-transition: "fade"
+    theme: [default, custom.scss] #custom style file
+    #incremental: true
+    aspect-ratio: 16:9
+    slide-number: true
+    #footer: "@lue_jula" 
+#title-slide-attributes:
+#    data-background-color: "#2A76DD" #univie color
+#    data-background-size: cover
+logo: "logos/uni_wien_logo_blue.jpg"
+editor: visual #visual editor
+---
+
+## Best Practices for Source-Based Research on News Trustworthiness
+
+### ICA 2025 in Denver, USA
+
+<br>
+<br> 
+
+**Jula Luehring** 
+
+*University of Vienna & Complexity Science Hub* <br>
+
+::: columns
+::: {.column width="60%"}
+![](logos/logos-combined.png)
+:::
+
+::: {.column width="35%"}
+![](logos/wwtf.svg)
+:::
+:::
+
+
+
+## How to measure misinformation?
+
+::: columns
+
+::: {.column width="50%"}
+
+Misinformation is hard to detect due to
+
+    -   subtle & grey-area content
+
+    -   ethical complexity
+        
+    -   conceptual/methodological constraints & traditions
+        
+:::
+
+::: {.column width="50%"}
+
+::: fragment 
+
+Source-based methods have the advantage to
+
+    -   include grey-are content 
+
+    -   easier to make judgments
+        
+    -   scalable 
+        
+:::
+
+        
+:::
+
+:::
+
+::: footer
+
+Allen et al., [2024](https://www.science.org/doi/10.1126/science.adk3451); Lazer et al., [2018](https://www.science.org/doi/10.1126/science.aao2998); Weeks and Gil de Zúñiga, [2021](https://doi.org/10.1177/0002764219878236)
+
+:::
+
+
+
+## NewsGuard
+
+* data base of ~12,000 news domains rated for trustworthiness (0–100)
+
+* selected based on web data and evaluated using 9 journalistic quality criteria  $\rightarrow$ *accurate at scale*
+
+* ratings are updated regularly by country experts
+
+* initially US-focused, now including other countries
+
+::: fragment 
+++ NewsGuard is the most comprehensive list of source ratings & widely used (in Science & nature)
+
+--- it's not reproducible, and we can't validate it 
+
+:::
+
+::: footer
+
+Aslett et al., [2022](https://www.science.org/doi/10.1126/sciadv.abl3844); Guess et al., [2020](https://www.nature.com/articles/s41562-020-0833-x), [2021](https://journalqd.org/article/view/2586); Pratelli et al., [2023](http://arxiv.org/abs/2303.12474); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5)
+
+:::
+
+## Research goals
+
+1. assess stability and completeness of ratings over time and countries
+
+2. evaluate the value of additional labels (e.g., political orientation, topics)
+
+3. provide recommendations for research use
+
+::: footer 
+
+Luehring, Metzler et al., [2025](https://journalqd.org/article/view/4500)
+
+:::
+
+
+## Stability over time
+
+![](images/trustworthiness.png){width="500"}
+
+* trustworthiness is relatively stable (changes rare, avg. 2 yrs)
+
+* drops due to new low-trustworthiness sources being added
+
+## Country-level completeness
+
+* majority of sources are US-based (~76%)
+
+* trustworthiness scores vary by country (US lowest on avg.)
+
+* stable coverage reached by ~2022 for US, DE, FR, IT, CA
+
+![](images/convergence.png){width="500"}
+
+## Use of contextual labels 
+
+::: columns
+
+::: {.column width="60%"}
+
+* political orientation label (right/left) sparse (~33%, mostly US)
+
+* right-leaning sources score lower on average
+
+* most sources have useful topic label (e.g., "health", "politics")
+
+:::
+
+::: {.column width="40%"}
+
+![](images/orientation.png){width="500"}
+:::
+
+:::
+
+## Replication findings
+
+* continuous scores: stable results across time
+
+* binary labels: can distort trends (e.g., spike in “untrustworthy” links from Republicans post-2020)
+
+![](images/binary_labels.png){width="500"}
+
+::: footer
+Lasser et al., [2022](https://doi.org/10.1093/pnasnexus/pgac186)
+:::
+
+## Recommendations
+
+1. always prefer continuous over binary scores
+
+2. use annual snapshots after first stable state and check for major source additions/removals
+
+3. check for country-specific journalistic traditions, esp. for comparative research
+
+4. topic and orientation labels are useful to characterize sources beyond trustworthiness but should be validated (or at least spot-checked)
+
+::: notes
+Coverage: Be cautious for countries other than those mentioned above, as coverage may be incomplete.
+
+Stability: The overall score rarely changes a lot, but coverage does. When using temporal data, check for major additions or removals (or use an annual snapshot).
+
+Country differences: Countries have different journalistic traditions, which we can see in the criteria for rating trustworthiness. Check if they make sense for the context you’re studying (esp. for comparative research). 
+
+Binary trustworthiness ratings: True/false labels for trustworthiness can be volatile across time periods and may distort downstream research. We strongly recommend using continuous scores whenever possible.
+
+Look beyond trustworthiness: NG provides additional contextual data, like political orientation and topic labels. Such labels are incomplete but useful to better characterize sources beyond trustworthiness.
+
+::: 
+
+## Implications for source-based approaches
+
+* binary true/false labels can be volatile across time periods
+
+* coverage & ratings are relatively insensitive to time once it reaches a stable state, speaking for the reliability of source-based approaches
+
+* need more open, transparent alternatives
+
+## Published in JQDM earlier this year
+
+::: columns
+
+::: {.column width="60%"}
+
+
+![](images/best-practices.png){width="600"}
+
+:::
+
+::: {.column width="30%"}
+
+<br>
+ 
+![](images/qrcode_journalqd.org.png){width="500"}
+
+
+
+:::
+
+:::
+  
+      
+## Team work <3
+
+<br>
+<br>
+
+:::{.center}
+![](images/collaborators.png){width="1000"}
+:::
+
+# Thank you!
+
+Email: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
+
+Bluesky: [\@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
+
+Github: [github.com/julaluehring](https://github.com/julaluehring)
