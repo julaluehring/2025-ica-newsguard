@@ -27,9 +27,8 @@ editor: visual #visual editor
 <br>
 <br> 
 
-**Jula Luehring** 
+**Jula Luehring**, Hannah Metzler, Ruggero Lazzaroni, Apeksha Shetty, Jana Lasser
 
-*University of Vienna & Complexity Science Hub* <br>
 
 ::: columns
 ::: {.column width="60%"}
@@ -65,11 +64,11 @@ Misinformation is hard to detect due to
 
 Source-based methods have the advantage to
 
-    -   include grey-are content 
+    -   include grey-area content & better reflects information diets
 
     -   easier to make judgments
         
-    -   scalable 
+    -   scalable & precise 
         
 :::
 
@@ -115,7 +114,7 @@ Aslett et al., [2022](https://www.science.org/doi/10.1126/sciadv.abl3844); Guess
 
 2. evaluate the value of additional labels (e.g., political orientation, topics)
 
-3. provide recommendations for research use
+3. provide recommendations for source-based approaches
 
 ::: footer 
 
@@ -124,7 +123,7 @@ Luehring, Metzler et al., [2025](https://journalqd.org/article/view/4500)
 :::
 
 
-## Stability over time
+## Rating stability over time
 
 ![](images/trustworthiness.png){width="500"}
 
@@ -163,7 +162,7 @@ Luehring, Metzler et al., [2025](https://journalqd.org/article/view/4500)
 
 :::
 
-## Replication findings
+## What happens when we use different versions? 
 
 * continuous scores: stable results across time
 
@@ -177,7 +176,7 @@ Lasser et al., [2022](https://doi.org/10.1093/pnasnexus/pgac186)
 
 ## Recommendations
 
-1. always prefer continuous over binary scores
+1. always prefer continuous over binary scores (or match dynamically)
 
 2. use annual snapshots after first stable state and check for major source additions/removals
 
@@ -206,7 +205,7 @@ Look beyond trustworthiness: NG provides additional contextual data, like politi
 
 * need more open, transparent alternatives
 
-## Published in JQDM earlier this year
+## Published in JQD:DM earlier this year
 
 ::: columns
 
@@ -229,15 +228,6 @@ Look beyond trustworthiness: NG provides additional contextual data, like politi
 
 :::
   
-      
-## Team work <3
-
-<br>
-<br>
-
-:::{.center}
-![](images/collaborators.png){width="1000"}
-:::
 
 # Thank you!
 
