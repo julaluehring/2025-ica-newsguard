@@ -1,2 +1,2 @@
-# 25-ica-matching
+# 25-ica-newsguard
 Public repository for presentation slides at ICA 25
