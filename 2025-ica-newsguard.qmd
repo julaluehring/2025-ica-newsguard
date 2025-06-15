@@ -68,7 +68,7 @@ Source-based methods have the advantage to
 
     -   easier to make judgments
         
-    -   scalable & precise 
+    -   scalable & unbiased 
         
 :::
 
@@ -137,9 +137,9 @@ Luehring, Metzler et al., [2025](https://journalqd.org/article/view/4500)
 
 * trustworthiness scores vary by country (US lowest on avg.)
 
-* stable coverage reached by ~2022 for US, DE, FR, IT, CA
+* stable state reached by ~2022 for US, DE, FR, IT, CA
 
-![](images/convergence.png){width="500"}
+![blue = number of sources, green = trustworthiness](images/convergence.png){width="500"}
 
 ## Use of contextual labels 
 
